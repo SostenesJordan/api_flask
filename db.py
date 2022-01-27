@@ -17,5 +17,10 @@ db = [
     NGO(
         'Instituição Assistencial Meimei', 
         'Centro Espírita Obreiros do Senhor', 
+        'Serviço Assistencial'),
+
+    NGO(
+        'Instituição Assistencial Meimei', 
+        'Centro Espírita Obreiros do Senhor', 
         'Serviço Assistencial')
 ]

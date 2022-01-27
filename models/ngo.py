@@ -3,10 +3,10 @@ from flask.json import JSONEncoder
 class NGO(object):
     new_id = 1
 
-    def __init__(self, name, founder, sector):
-        self.name = name
-        self.founder = founder
-        self.sector = sector
+    def __init__(self, nome, fudador, setor):
+        self.nome = nome
+        self.fudador = fudador
+        self.setor = setor
         self.id = NGO.new_id
         NGO.new_id += 1
 
